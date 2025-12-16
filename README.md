@@ -154,14 +154,9 @@ Players can send **waves of cars** to other players’ car washes.
 
 (Tracked in GitHub Issues)
 
-## Related Documents
-- Issues Tracker:  
-  https://github.com/Silverware-Games/wash-towel-fill-gdd/issues
-
 ## Status
 🚧 **Active Design / Iteration Phase**  
 This document is a living design and will evolve alongside implementation.
-
 
 # Issue Tracker
 Use https://github.com/Silverware-Games/wash-towel-fill-gdd/issues to submit an idea or a bug report. You should be signed into GitHub.
