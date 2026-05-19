@@ -61,8 +61,6 @@ The guiding slogan:
 
 That means WTF should be chaotic, social, competitive, silly, and sometimes unfair in a funny way — but never hostile, hopeless, or dominated by a small handful of players forever.
 
----
-
 # Design Goals
 
 ## 1. Easy to join, hard to master
