@@ -827,6 +827,65 @@ Narrator gag possibility:
 
 WTF needs both personal and faction economies.
 
+### Ultra Big Numbers
+
+The score economy should embrace **ultra big numbers** in the spirit of incremental games such as Adventure Capitalist.
+
+Players should not feel like the score is a small arcade total that tops out after a few waves. Scores, faction value, and long-term wash output should be allowed to grow absurdly large over time.
+
+Design goals:
+
+- Scores should grow from readable early values into huge, exciting late-game values.
+- UI should support compact notation for very large values.
+- Bigger numbers should feel funny, satisfying, and slightly ridiculous.
+- The game should avoid hiding progress behind tiny percentage changes.
+- Players should feel that each reset, upgrade, or faction milestone makes the next run climb faster.
+
+The car-wash fantasy can support this as escalating business nonsense:
+
+- Tips
+- Franchise value
+- Suds-per-second
+- Customer throughput
+- Faction wash empire value
+- City-wide cleanliness market share
+
+The exact naming can change, but the feeling should be:
+
+> “Our wash was making thousands. Then millions. Then billions. Now the Spacecakes are laundering reality at 4.18T suds per wave.”
+
+### Game Over as Acceleration
+
+Game over should not be treated as a harsh pain point or dead end.
+
+If a player or faction reaches a fail state, the result should still add to long-term progress. Ending a run should become part of the optimization loop: players who deliberately push until collapse are helping unlock faster future scoring.
+
+This should work like a prestige/reset mechanic:
+
+- A failed or completed run banks some form of permanent or semi-permanent progress.
+- That banked progress increases how quickly future runs reach high scores.
+- The reward can scale with peak score, highest wave, faction contribution, cars cleaned, or dramatic failure conditions.
+- Players who want to “end the game” should feel like they are cashing out progress, not wasting everyone’s time.
+- The reset should create a satisfying “next run starts stronger” moment.
+
+Possible names:
+
+- Franchise Momentum
+- Wash Experience
+- Reputation
+- Boss Favor
+- Suds Multiplier
+- Reset Bonus
+- Clean Capital
+
+Important tone rule:
+
+Game over can still be funny, loud, and dramatic, but it should not feel like the player was scolded or sent back to zero.
+
+Design target:
+
+> A player can lose, laugh, bank progress, and immediately understand why the next run will score faster.
+
 ### Possible Resources
 
 #### Cash
@@ -861,8 +920,10 @@ Negative global resource that threatens the city.
 
 - Every action matters.
 - Avoid meaningless inflation.
+- Embrace meaningful, visible inflation when it supports the ultra-big-number fantasy.
 - Support short-session rewards.
 - Give hardcore players strategic spending decisions.
+- Make resets/game-over outcomes feed long-term acceleration instead of only punishing failure.
 - Prevent one player from draining shared resources.
 - Keep faction progress visible.
 
@@ -916,6 +977,25 @@ Absorbs a messy situation and converts part of it into Data Foam.
 
 ## 14. Competitive Structure
 
+### Score Fantasy
+
+Leaderboard competition should support escalating scores rather than small fixed arcade totals.
+
+The fantasy is not just “survive longest.” It is:
+
+> “How absurdly valuable can this car wash empire become, and how quickly can we make the numbers explode after each reset?”
+
+Scoreboards should therefore be designed for:
+
+- Comma-separated early scores.
+- Compact/scientific notation for huge scores.
+- Peak run score.
+- Fastest climb back to a previous milestone.
+- Best reset/prestige payout.
+- Biggest faction multiplier gain.
+
+This lets competition remain readable even when the economy intentionally grows into very large values.
+
 ### Daily Competition
 
 Daily score can measure:
@@ -952,6 +1032,7 @@ Rewards can include:
 - Title unlocks
 - Seasonal hall of fame
 - Temporary next-season starting bonuses
+- Reset/prestige bonuses that make the next climb faster without creating permanent hopelessness for new players
 
 Avoid rewards that create unstoppable snowballing.
 
@@ -1424,6 +1505,8 @@ Success criteria:
 Build:
 
 - Weekly/seasonal scoreboards
+- Ultra-big-number score display and leaderboard handling
+- Reset/prestige rewards that make future scoring faster
 - Seasonal rewards
 - Faction titles
 - Boss animations
@@ -1442,15 +1525,19 @@ Success criteria:
 Open questions:
 
 1. How often should faction seasons reset?
-2. Should faction membership be locked during the final stretch of a season?
-3. How much should population imbalance be corrected automatically?
-4. Should underdog factions receive catch-up bonuses?
-5. Should the Grime Meter punish everyone equally or mostly the faction causing the mess?
-6. How much information should rival factions be able to see?
-7. Are layout changes real-time, proposal-based, or limited to planning windows?
-8. Should the game support anonymous casual play before login?
-9. What is the minimum viable simulation tick rate?
-10. Should boss abilities be manually activated, vote-activated, or automatically triggered?
+2. What should a run reset/game-over bank into permanent or semi-permanent progress?
+3. How fast should scores grow from thousands to millions, billions, and beyond?
+4. What compact notation should the UI use for ultra-large values?
+5. How much reset/prestige acceleration is exciting without making new players feel irrelevant?
+6. Should faction membership be locked during the final stretch of a season?
+7. How much should population imbalance be corrected automatically?
+8. Should underdog factions receive catch-up bonuses?
+9. Should the Grime Meter punish everyone equally or mostly the faction causing the mess?
+10. How much information should rival factions be able to see?
+11. Are layout changes real-time, proposal-based, or limited to planning windows?
+12. Should the game support anonymous casual play before login?
+13. What is the minimum viable simulation tick rate?
+14. Should boss abilities be manually activated, vote-activated, or automatically triggered?
 
 ## 23. Tone Rules
 
